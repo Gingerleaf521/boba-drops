@@ -1,0 +1,43 @@
+.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    z-index:-1;
+    opacity:0.5;
+    width: 100%;
+    height: 100%;
+}
+.image {
+    width: 300px;
+    height: auto;
+    position: relative;
+    opacity: 1;
+    border: 2px solid gray;
+    z-index:2;
+}
+body {
+    min-height: 97vh;
+    margin:0;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    background: black;
+    border: 10px dashed lightgreen;
+    position:relative;
+    color: lightgreen;
+}
+header {
+    font-family:monospace;
+    font-weight: normal;
+    background:rgb(20,20,20);
+    padding: 1px;
+}
+.Subheader {
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:175%;   
+}
+h1 {
+    font-size:450%;
+}
